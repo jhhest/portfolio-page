@@ -2,13 +2,10 @@
 
 /* CSS variables */
 :root {
-	--bg-light: #fff;
-	--bg-dark: rgb(17, 17, 17);
-	--accent-color: #006be6;
-	--text-light: #fff;
-	--gray: #595959;
-	--dark-gray: #2e2e2e;
-	--overlay-light: rgba(255, 255, 255, 0.527);
+	--light-gray: #989998;
+	--gray: #555;
+	--dark-gray: #3c3c3c;
+	--light-blue: #00a5d9;
 }
 
 /* fonts */
@@ -22,11 +19,11 @@ body { margin: 0; }
 
 h1,
 h2 {
-	color: var(--accent-color);
+	color: var(--light-blue);
 }
 
 header {
-	background-color: gray;
+	background-color: var(--gray);
 	box-sizing: border-box;
 	padding: 2rem 2rem 0 2rem;
 	display: flex;
