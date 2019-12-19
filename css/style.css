@@ -1,5 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,900&display=swap');
 
+/* CSS variables */
+:root {
+	--bg-light: #fff;
+	--bg-dark: rgb(17, 17, 17);
+	--accent-color: #006be6;
+	--text-light: #fff;
+	--text-gray: #595959;
+	--text-dark-gray: #2e2e2e;
+	--overlay-light: rgba(255, 255, 255, 0.527);
+}
+
+/* fonts */
+
 * {
 	font-family: 'Exo', Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2 {
+	color: var(--accent-color);
+}
+
+section.introduction {
+    margin: 2rem auto;
+    width: 80%;
 }
